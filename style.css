@@ -1,0 +1,279 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(248 248 248);
+  width: 98%;
+  height: 98%;
+}
+.container_1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  margin-top: -50px;
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.you_bal_div {
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.heading_div {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.minicontainer {
+  font-family: "PT Sans", sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 2px 4px 0px gray;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+}
+.mini1 {
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.mini2 {
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.history_div {
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  color: #434343;
+  font-size: 18px;
+  width: 113%;
+  max-height: 150px;
+  overflow-y: auto;
+  font-weight: 900;
+  left: -35px;
+}
+.his_1 {
+  width: 100%;
+
+}
+.af {
+  /* box-shadow: 1px 2px 4px 0px gray; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 43px;
+  gap: 0.4em;
+  margin-bottom: 5px;
+}
+.div2 {
+  display: flex;
+  justify-content: end;
+}
+.div3 {
+  display: flex;
+  box-shadow: gray 1px 2px 4px 0px;
+  justify-content: space-between;
+  width: 125%;
+  height: 43px;
+}
+p.h {
+  width: 43%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+p.j {
+  margin-left: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+span.h {
+  text-align: center;
+  font-size: medium;
+  font-family: sans-serif;
+}
+.tr {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.amount_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.button_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lin {
+  font-size: 21px;
+  width: 0%;
+  border-left: 1px solid;
+}
+input {
+  height: 27px;
+  border: 1px solid rgb(203, 203, 203);
+  width: 100%;
+}
+button.sum {
+    margin-top: 0.5em;
+    width: 100%;
+    height: 2.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(178, 119, 255);
+    color: white;
+    font-size: 16px;
+}
+button.remove_btn {
+  width: 10%;
+  position: relative;
+  height: 32px;
+  border: none;
+  background: rgb(248 248 248);
+  color: transparent;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  left: 6px;
+  top: 2px;
+}
+p.sma {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+hr {
+  width: 100%;
+  margin-left: 1px;
+}
+.left_r {
+  border-right:5px solid;
+  border-color: red;
+  height: 95%;
+}
+.left_g {
+  border-right: 5px solid;
+  border-color: green;
+  height: 100%;
+}
+input.textbox {
+  width: 100%;
+}
+.tra {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+p.bol {
+  font-weight: 600;
+}
+#add {
+  color: lightgreen;
+}
+#low {
+  color: red;
+}
+i#fon {
+  font-size: 20px;
+}
+h2.amo {
+  font-family: "PT Sans", sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+.his {
+  font-family: "Lato", sans-serif;
+}
+p.bla {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+span {
+  font-size: 35px;
+}
+
+.mov2 {
+  font-family: system-ui;
+  margin: 0;
+}
+
+p.in {
+  font-size: 23px;
+}
+
+p.mov {
+  font-family: system-ui;
+  margin: 0;
+}
+h3.head {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+p {
+  margin: 0;
+}
+.af:hover .remove_btn{
+  color: white;
+  background-color: #ff3535;
+}
